@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "S=\"$CLAUDE_PROJECT_DIR/.claude/skills/metodo-proyectos/scripts/arranque.py\"; [ -f \"$S\" ] || exit 0; python3 \"$S\" 2>/dev/null || python \"$S\"",
+            "timeout": 20
+          }
+        ]
+      }
+    ]
+  }
+}

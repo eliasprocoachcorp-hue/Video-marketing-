@@ -1,0 +1,11 @@
+{
+  "proyecto": "Video marketing",
+  "mapa": [
+    "CLAUDE.md"
+  ],
+  "estado": "ESTADO.md",
+  "tareas": "TAREAS",
+  "decisiones": "DECISIONS",
+  "lecciones": "LECCIONES.md",
+  "verificar": "revisión manual (sin pruebas todavía)"
+}
