@@ -1,0 +1,9 @@
+{
+  "proyecto": "<nombre corto>",
+  "mapa": ["CLAUDE.md", "CONTEXT.md"],
+  "estado": "SESSION_CONTEXT_CURRENT.md",
+  "tareas": "TAREAS",
+  "decisiones": "DECISIONS",
+  "lecciones": "LECCIONES.md",
+  "verificar": "<comando de pruebas, o 'revisión manual'>"
+}
