@@ -4,7 +4,7 @@
 el hook de arranque muestra estado, tareas y lecciones).
 
 ## Qué es
-Distribución de los videos de Video-factory (base armada el 2026-11-07 a pedido del coach): variantes
+Distribución de los videos de Video-factory (base armada el 2026-11-07 a pedido del coach; objetivo por confirmar con él): variantes
 para probar ganchos (trial reels), calendario y registro de resultados. Publica el coach a mano; nada
 se publica solo ni se guardan llaves de redes. Plataformas: por confirmar.
 
@@ -15,7 +15,7 @@ se publica solo ni se guardan llaves de redes. Plataformas: por confirmar.
 | Tareas | `TAREAS/ACTIVE`, `TAREAS/BLOCKED` |
 | Decisiones | `DECISIONS/` |
 | Lecciones | `LECCIONES.md` |
-| Resultados por publicación | `registro.csv` · `python3 scripts/registro.py agregar · medir · resumen` |
+| Resultados por publicación | `registro.csv` (una fila por variante y plataforma; `Video-factory/videos/ledger.csv` sigue siendo una fila por video) · `python3 scripts/registro.py agregar · medir · resumen` |
 | Variantes de un video | `variantes/<id_video>.md` (plantilla `variantes/_plantilla.md`) |
 | Qué se publica y cuándo | `CALENDARIO.md` |
 

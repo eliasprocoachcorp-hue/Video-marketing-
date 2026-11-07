@@ -28,11 +28,12 @@ plataformas y qué variar en cada video los decide él.
    tipo (historia, lista o explicación): gancho, música, primera escena o duración. Las
    variantes salen siempre de la toma cruda y del `motion.md` en Video-factory, nunca del
    archivo ya publicado.
-4. Después de 3–4 semanas de datos: leer qué gancho funcionó y llevarlo como regla a
+4. Después de 3–4 semanas de datos: mostrarle al coach qué tipo de gancho funcionó
+   (`registro.py resumen`) y, **si él lo aprueba**, llevarlo como regla a
    `Video-factory/sistema/preferencias_coach.json` (con evidencia, como manda el método).
 
 `registro.csv` propuesto:
-`id_video,variante,gancho,musica,duracion_s,plataforma,fecha,url,vistas_24h,vistas_7d,guardados,compartidos,seguidores_nuevos,nota`
+`id_video,variante,tipo_gancho,gancho,musica,duracion_s,plataforma,fecha,url,vistas_24h,vistas_7d,guardados,compartidos,seguidores_nuevos,nota`
 
 ## Salidas
 | Entrega | Dónde | Formato |
@@ -48,12 +49,14 @@ plataformas y qué variar en cada video los decide él.
   `epc-content-intel` con sus reglas (anónimo, privado, fuera del repo).
 
 ## Checkpoints (el coach decide)
-- Antes de la etapa 2: ¿este es el objetivo del repo? ¿qué plataformas?
+- Antes de la etapa 2: ¿este es el objetivo del repo? → el coach pidió el 2026-11-07 «haz todo lo
+  que se pueda» y se armó la base; **confirmarlo con él al mostrarla**. ¿Qué plataformas? → pendiente.
 - Antes de la etapa 3: qué se puede variar en cada video.
+- Antes de llevar un resultado a `preferencias_coach.json`: que el coach lo apruebe.
 
 ## Estado
-- 2026-11-07: el coach pidió hacer todo lo posible: etapas 1 y 2 hechas (`registro.csv`, `scripts/registro.py` con tests,
-  `variantes/_plantilla.md`, `CALENDARIO.md`). Plataformas sin confirmar.
+- 2026-11-07: base armada (`registro.csv`, `scripts/registro.py` con 5 tests, `variantes/_plantilla.md`,
+  `CALENDARIO.md`). Objetivo por confirmar con el coach al mostrársela; plataformas sin confirmar.
 
 ## Depende de
 - El coach: plataformas y qué variar en el primer video.

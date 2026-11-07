@@ -166,8 +166,9 @@ Va a: <archivo del repo donde se pega>
   se trata como código ajeno):
   1. Leer el `SKILL.md` real y todo lo que mande cargar o correr, no solo el README.
   2. Verificar la licencia. Sin licencia clara no se copia texto; se toman solo ideas.
-  3. Se adapta, no se instala tal cual: se reescribe en nuestro idioma y convenciones y se
-     cita el origen con el commit (`repo@sha`) y la licencia al pie.
+  3. Se adapta: se reescribe en nuestro idioma y convenciones y se cita el origen con el
+     commit (`repo@sha`) y la licencia. Copia literal solo si la licencia lo permite
+     (MIT, Apache…), fijada a un commit, con su `LICENSE` al lado y un `ORIGEN.md`.
   4. Se rechaza lo que trae contenido remoto al usarse, se instala o actualiza solo
      (`curl | sh`, auto-update), engancha cada herramienta (hooks ajenos), usa cookies o la
      sesión del navegador, o pide llaves de servicios que el coach no aprobó.
