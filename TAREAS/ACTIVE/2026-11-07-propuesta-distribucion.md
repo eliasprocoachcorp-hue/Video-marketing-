@@ -6,12 +6,12 @@ creada: 2026-11-07
 actualizada: 2026-11-07
 ---
 
-# Propuesta: Video-marketing- como repo de distribución (espera al coach)
+# Video-marketing- como repo de distribución
 
 **Qué y para qué:** Video-factory hace los videos; este repo se ocuparía de lo que pasa
 después: variantes de gancho para probar (trial reels), textos de publicación, calendario y
-el registro de resultados por video. Es una **propuesta**: el objetivo del repo lo define
-el coach.
+el registro de resultados por video. La base se armó a pedido del coach (2026-11-07);
+plataformas y qué variar en cada video los decide él.
 
 ## Entradas
 | Fuente | Archivo / lugar | Sección | Por qué |
@@ -52,10 +52,11 @@ el coach.
 - Antes de la etapa 3: qué se puede variar en cada video.
 
 ## Estado
-- 2026-11-07: propuesta escrita; nada creado todavía.
+- 2026-11-07: el coach pidió hacer todo lo posible: etapas 1 y 2 hechas (`registro.csv`, `scripts/registro.py` con tests,
+  `variantes/_plantilla.md`, `CALENDARIO.md`). Plataformas sin confirmar.
 
 ## Depende de
-- Decisión del coach sobre el objetivo del repo.
+- El coach: plataformas y qué variar en el primer video.
 
 ## Siguiente paso
-Mostrarle esta propuesta al coach.
+Elegir con el coach el primer video y llenar `variantes/<id_video>.md`.
