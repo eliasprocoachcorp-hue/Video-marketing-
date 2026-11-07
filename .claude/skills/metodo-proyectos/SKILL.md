@@ -162,6 +162,16 @@ Va a: <archivo del repo donde se pega>
 - Ningún dato privado de atletas o pacientes en superficies públicas ni en lecciones.
 - Sin credenciales en archivos.
 - `git add` con rutas explícitas. Nunca merge, reset ni force-push sin que el coach lo pida.
+- **Skills, plugins y repos de terceros** (una skill son instrucciones que el agente ejecuta:
+  se trata como código ajeno):
+  1. Leer el `SKILL.md` real y todo lo que mande cargar o correr, no solo el README.
+  2. Verificar la licencia. Sin licencia clara no se copia texto; se toman solo ideas.
+  3. Se adapta, no se instala tal cual: se reescribe en nuestro idioma y convenciones y se
+     cita el origen con el commit (`repo@sha`) y la licencia al pie.
+  4. Se rechaza lo que trae contenido remoto al usarse, se instala o actualiza solo
+     (`curl | sh`, auto-update), engancha cada herramienta (hooks ajenos), usa cookies o la
+     sesión del navegador, o pide llaves de servicios que el coach no aprobó.
+  5. Nunca se prueba algo ajeno en un repo o sesión con credenciales vivas.
 
 ## 8. Proyecto o repo nuevo
 
