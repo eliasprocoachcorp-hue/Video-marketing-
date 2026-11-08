@@ -4,7 +4,9 @@
 el hook de arranque muestra estado, tareas y lecciones).
 
 ## Qué es
-Repo para video marketing. Hoy solo tiene el README; el objetivo está por definir con el coach.
+Distribución de los videos de Video-factory (base armada el 2026-11-07 a pedido del coach; objetivo por confirmar con él): variantes
+para probar ganchos (trial reels), calendario y registro de resultados. Publica el coach a mano; nada
+se publica solo ni se guardan llaves de redes. Plataformas: por confirmar.
 
 ## Dónde está cada cosa
 | Necesito | Abrir |
@@ -13,6 +15,9 @@ Repo para video marketing. Hoy solo tiene el README; el objetivo está por defin
 | Tareas | `TAREAS/ACTIVE`, `TAREAS/BLOCKED` |
 | Decisiones | `DECISIONS/` |
 | Lecciones | `LECCIONES.md` |
+| Resultados por publicación | `registro.csv` (una fila por variante y plataforma; `Video-factory/videos/ledger.csv` sigue siendo una fila por video) · `python3 scripts/registro.py agregar · medir · resumen` |
+| Variantes de un video | `variantes/<id_video>.md` (plantilla `variantes/_plantilla.md`) |
+| Qué se publica y cuándo | `CALENDARIO.md` |
 
 ## Fuente de verdad
 código → tests → configuración → docs → historial de git → conversación. Lo que no se puede verificar: **DESCONOCIDO**.
@@ -22,4 +27,4 @@ código → tests → configuración → docs → historial de git → conversac
 - `git add` con rutas explícitas; sin credenciales en archivos; nada de merge/reset/force-push sin pedirlo.
 
 ## Verificar
-Sin pruebas todavía: revisión manual.
+`python3 -m unittest discover -s tests`
