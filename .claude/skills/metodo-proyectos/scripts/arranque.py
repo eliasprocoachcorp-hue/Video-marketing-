@@ -114,7 +114,7 @@ def main() -> None:
         print(f"nota: {cfg['nota']}")
     if cfg.get("verificar"):
         print(f"verificar: {cfg['verificar']}")
-    print("ciclo: ubicarse → tarea con contrato → etapas (el coach decide) → verificar → cerrar → lección con evidencia")
+    print("ciclo: ubicarse → tarea con contrato → etapas (lo del coach se pregunta, lo demás se hace) → verificar → cerrar → lección con evidencia")
 
 
 if __name__ == "__main__":
