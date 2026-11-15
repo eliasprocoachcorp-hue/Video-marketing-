@@ -18,7 +18,7 @@ el hook de arranque muestra estado, tareas y lecciones).
 código → tests → configuración → docs → historial de git → conversación. Lo que no se puede verificar: **DESCONOCIDO**.
 
 ## Reglas que no se rompen
-- El coach decide; el agente organiza, ejecuta y pregunta en las decisiones de criterio.
+- El coach decide el contenido, la marca y lo irreversible (skill `metodo-proyectos` §2); el resto lo decide el agente y lo cuenta.
 - `git add` con rutas explícitas; sin credenciales en archivos; nada de merge/reset/force-push sin pedirlo.
 
 ## Verificar
